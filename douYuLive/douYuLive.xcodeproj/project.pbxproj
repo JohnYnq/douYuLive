@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18AF9E8F2071D92E00B39D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF9E8E2071D92E00B39D9D /* AppDelegate.swift */; };
-		18AF9E942071D92E00B39D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF9E922071D92E00B39D9D /* Main.storyboard */; };
 		18AF9E962071D92F00B39D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF9E952071D92F00B39D9D /* Assets.xcassets */; };
 		18AF9E992071D92F00B39D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF9E972071D92F00B39D9D /* LaunchScreen.storyboard */; };
 		18AF9EA320720C6F00B39D9D /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 18AF9EA220720C6F00B39D9D /* Classes */; };
@@ -17,10 +16,9 @@
 /* Begin PBXFileReference section */
 		18AF9E8B2071D92E00B39D9D /* douYuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douYuLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF9E8E2071D92E00B39D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18AF9E932071D92E00B39D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18AF9E952071D92F00B39D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AF9E982071D92F00B39D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18AF9E9A2071D92F00B39D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AF9E9A2071D92F00B39D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Users/apple/Documents/workspace/ios/douYuLive/douYuLive/douYuLive/Info.plist; sourceTree = DEVELOPER_DIR; };
 		18AF9EA220720C6F00B39D9D /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 			children = (
 				18AF9EA220720C6F00B39D9D /* Classes */,
 				18AF9E8E2071D92E00B39D9D /* AppDelegate.swift */,
-				18AF9E922071D92E00B39D9D /* Main.storyboard */,
 				18AF9E952071D92F00B39D9D /* Assets.xcassets */,
 				18AF9E972071D92F00B39D9D /* LaunchScreen.storyboard */,
 				18AF9E9A2071D92F00B39D9D /* Info.plist */,
@@ -125,7 +122,6 @@
 				18AF9E992071D92F00B39D9D /* LaunchScreen.storyboard in Resources */,
 				18AF9EA320720C6F00B39D9D /* Classes in Resources */,
 				18AF9E962071D92F00B39D9D /* Assets.xcassets in Resources */,
-				18AF9E942071D92E00B39D9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18AF9E922071D92E00B39D9D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18AF9E932071D92E00B39D9D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18AF9E972071D92F00B39D9D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
