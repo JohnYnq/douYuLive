@@ -12,7 +12,10 @@
 		187BD158207351FB00062438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BD156207351FB00062438 /* Main.storyboard */; };
 		187BD15A207351FC00062438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187BD159207351FC00062438 /* Assets.xcassets */; };
 		187BD15D207351FC00062438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BD15B207351FC00062438 /* LaunchScreen.storyboard */; };
-		187BD167207354E300062438 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 187BD166207354E300062438 /* Classes */; };
+		187BD16A2073672900062438 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BD1682073672900062438 /* Home.storyboard */; };
+		187BD1702073689E00062438 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BD16E2073689E00062438 /* Live.storyboard */; };
+		187BD173207368C700062438 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BD171207368C700062438 /* Follow.storyboard */; };
+		187BD1762073690800062438 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187BD1742073690800062438 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +26,10 @@
 		187BD159207351FC00062438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187BD15C207351FC00062438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187BD15E207351FC00062438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		187BD166207354E300062438 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		187BD1692073672900062438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = douYuLive/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		187BD16F2073689E00062438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = douYuLive/Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		187BD172207368C700062438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = douYuLive/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		187BD1752073690800062438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = douYuLive/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,66 @@
 		187BD151207351FB00062438 /* douYuLive */ = {
 			isa = PBXGroup;
 			children = (
-				187BD166207354E300062438 /* Classes */,
+				187BD17B20736BF900062438 /* classes */,
 				187BD152207351FB00062438 /* AppDelegate.swift */,
 				187BD154207351FB00062438 /* ViewController.swift */,
-				187BD156207351FB00062438 /* Main.storyboard */,
 				187BD159207351FC00062438 /* Assets.xcassets */,
 				187BD15B207351FC00062438 /* LaunchScreen.storyboard */,
 				187BD15E207351FC00062438 /* Info.plist */,
 			);
 			path = douYuLive;
+			sourceTree = "<group>";
+		};
+		187BD17B20736BF900062438 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				187BD18020736C2E00062438 /* Profile */,
+				187BD17F20736C2700062438 /* Main */,
+				187BD17E20736C1B00062438 /* Live */,
+				187BD17D20736C1400062438 /* Home */,
+				187BD17C20736C0800062438 /* Follow */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		187BD17C20736C0800062438 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				187BD171207368C700062438 /* Follow.storyboard */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		187BD17D20736C1400062438 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				187BD1682073672900062438 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		187BD17E20736C1B00062438 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				187BD16E2073689E00062438 /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		187BD17F20736C2700062438 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				187BD156207351FB00062438 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		187BD18020736C2E00062438 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				187BD1742073690800062438 /* Profile.storyboard */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				187BD15D207351FC00062438 /* LaunchScreen.storyboard in Resources */,
-				187BD167207354E300062438 /* Classes in Resources */,
+				187BD16A2073672900062438 /* Home.storyboard in Resources */,
+				187BD1762073690800062438 /* Profile.storyboard in Resources */,
+				187BD1702073689E00062438 /* Live.storyboard in Resources */,
+				187BD173207368C700062438 /* Follow.storyboard in Resources */,
 				187BD15A207351FC00062438 /* Assets.xcassets in Resources */,
 				187BD158207351FB00062438 /* Main.storyboard in Resources */,
 			);
@@ -161,6 +221,38 @@
 				187BD15C207351FC00062438 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		187BD1682073672900062438 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187BD1692073672900062438 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		187BD16E2073689E00062438 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187BD16F2073689E00062438 /* Base */,
+			);
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+		187BD171207368C700062438 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187BD172207368C700062438 /* Base */,
+			);
+			name = Follow.storyboard;
+			sourceTree = "<group>";
+		};
+		187BD1742073690800062438 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187BD1752073690800062438 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
