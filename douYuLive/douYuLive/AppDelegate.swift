@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  douYuLive
 //
-//  Created by apple on 2018/4/2.
-//  Copyright © 2018年 apple. All rights reserved.
+//  Created by apple on 2018/4/3.
+//  Copyright © 2018年 yuannianqing. All rights reserved.
 //
 
 import UIKit
